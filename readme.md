@@ -1,0 +1,1 @@
+Esse projeto que estou desenvolvendo é um portifólio das aulas que a Alura está ensinando. Existem códigos que podem ser melhorados e outros que podem ser substituídos por algum código melhor. Mas espero que gostem.
