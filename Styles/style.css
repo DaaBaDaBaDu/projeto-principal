@@ -46,7 +46,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,7 +110,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 35%;
 }
 
 .rodape {
@@ -126,7 +126,7 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 10%;
+        padding: 8%;
     }
 
     .cabecalho__menu {
@@ -135,9 +135,26 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        text-align: center;
     }
 }
 
+@media (max-width: 570px) {
+    .cabecalho__menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .apresentacao__conteudo {
+        text-align: center;
+    }
+}
 
 /* Início do Currículo */
 
