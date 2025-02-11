@@ -5,7 +5,7 @@
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
     --cor-quartenaria: beige;
-    --cor-hover: #ECDFCC;
+    --cor-hover: #c7c6c6;
 
     --font-principal: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
@@ -105,7 +105,7 @@ body {
     font-weight: 600;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover)
 }
 
