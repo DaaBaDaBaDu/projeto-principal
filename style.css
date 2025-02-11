@@ -145,7 +145,7 @@ body {
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 605px) {
     .cabecalho__menu {
         flex-direction: column;
         align-items: center;
@@ -161,25 +161,11 @@ body {
     }
 }
 
-/* Início do Currículo */
-
-
-.curriculo__conteudo__texto {
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
-}
-
-.curriculo__conteudo__principal {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
+/* Códigos do Currículo */
 
 .apresentacao__conteudo__lista {
     color: var(--cor-secundaria);
     font-size: 1.5rem;
-    padding: 0 10px 0 0;
 }
 
 .certificado-link {
@@ -189,8 +175,4 @@ body {
 
 .certificado-link:hover {
     color: var(--cor-quartiaria);
-}
-
-.curriculo__imagem {
-    padding: 0 15%;
 }
