@@ -112,7 +112,6 @@ body {
 .apresentacao__imagem {
     width: 25%;
     border-radius: 5%;
-    border: 5px solid white;
     padding: 2px;
 }
 
@@ -168,6 +167,9 @@ body {
 .apresentacao__conteudo__lista {
     color: var(--cor-secundaria);
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .certificado-link {
